@@ -1,8 +1,22 @@
-div
-	{
-		color:red;
-		background:blue;
-		text-align:center;
-		margin:auto;
-		padding:auto;
-	}
+.big-box{
+	width: 60px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 30px;
+	padding: 5px 5px 5px 5px; // padding 可以让图片在div上下左右居中,这样图片在放大时,不会被div容器遮挡
+	border-dadius:5px 5px 0 0
+	overflow: hidden;
+}
+.big-box :hover{
+	cursor: pointer; // 鼠标移入变为小手
+}
+.big-box img{
+	height: 30px;
+	transform: scale(1.1); //原本的图片的大小，图片原来的大小不变
+	transition: all 0.6s;
+	
+}
+.big-box img:hover{
+	transform:scale(1.5); //图片按照比例，整体放大了1.2倍
+                       // 当鼠标经过是图片放大的倍数为1.2倍
+}
