@@ -9,9 +9,48 @@ body{
 * {
     box-sizing: border-box;
     outline: 0;
+	transition: .25s;
+}
+.context{
+	width:100%;
+	height:110px;
+	backdrop-filter:blur(5px);
 }
 .text{
 	color:white;
+}
+.logo{
+	position:absolute;
+	left:10px;
+	top:15px;
+	width:210px;
+	height:90px;
+	border:solid 2px white;
+	border-radius: 15px;
+	
+}
+#logo-picture{
+	float:left;
+	width:100px;
+	display: inline-block;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+    transition: .25s;
+	background-image:url(../img/logo.png);
+}
+#logo-text{
+	float:left;
+	width:100px;
+	display: inline-block;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+    transition: .25s;
+    font-size: 2em;
+    font-weight: bold;
 }
 #bg{
 	background-image:url(../img/xxx.jpg);
