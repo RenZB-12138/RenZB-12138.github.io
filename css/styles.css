@@ -10,6 +10,9 @@ body{
     box-sizing: border-box;
     outline: 0;
 }
+.text{
+	color:white;
+}
 #bg{
 	background-image:url(../img/xxx.jpg);
 	position: fixed;
@@ -23,12 +26,13 @@ img.new
 {
 	width:auto;
 	height:160px;
-	transition:width 0.5s,height 0.5s;
-	-webkit-transition:width 0.5s,height 0.5s; /* Safari */
+	box-shadow:rgb(0 0 0 / 3%) 0 10px 30px;
+	transition:0.25s;
+	-webkit-transition:0.25s; /* Safari */
+	
 }
 
 img.new:hover
 {
-	width:auto;
-	height:240px;
+	box-shadow:rgb(0 0 0 / 30%) 0 10px 30px;
 }
