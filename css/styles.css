@@ -83,10 +83,9 @@ align-items: center;}
     background-size: cover;
     background-position: center;
 }
-div.new
+img.new
 {
-	width:512px;
-	height:288px;
+	margin:10px;
 	box-shadow:rgb(0 0 0 / 3%) 0 10px 30px;
 	transition:0.25s;
 	-webkit-transition:0.25s; /* Safari */
