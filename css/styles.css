@@ -1,4 +1,4 @@
-.new
+img.new
 {
 	width:auto;
 	height:160px;
@@ -6,7 +6,7 @@
 	-webkit-transition:width 0.5s,height 0.5s; /* Safari */
 }
 
-.new:hover
+img.new:hover
 {
 	width:auto;
 	height:240px;
