@@ -1,14 +1,13 @@
-div
+.new
 {
-	width:200px;
+	width:auto;
 	height:160px;
-	background:red;
 	transition:width 0.5s,height 0.5s;
 	-webkit-transition:width 0.5s,height 0.5s; /* Safari */
 }
 
-div:hover
+.new:hover
 {
-	width:300px;
+	width:auto;
 	height:240px;
 }
