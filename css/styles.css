@@ -44,7 +44,7 @@ body{
 	display: inline-block;
     height: 90px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:cover;
     background-position: left center;
     transition: .25s;
 	background-image:url(../img/logo.png);
@@ -96,9 +96,10 @@ align-items: center;}
 	
 }
 #back{
+	top:0;
 	background-image:url(../img/pic2.jpg);
 	background-repeat: no-repeat;
-    background-size:cover;
+    background-size:100%;
     background-position: center;
 }
 img.new
