@@ -59,6 +59,14 @@ body {
   margin-right: .75rem;
   margin-left: .75rem;
 }
+.show{
+  border-radius: 16px;
+  padding: 14px;
+}
+.show:hover{
+  transition: .25s;
+  box-shadow: 0px 0px 20px 20px rgb(0 0 0 / 50%);
+}
 /* rtl:end:ignore */
 
 
