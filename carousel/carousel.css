@@ -62,7 +62,6 @@ body {
 .show{
   border-radius: 16px;
   padding: 14px;
-  margin: 8px;
 }
 .show:hover{
   transition: .25s;
