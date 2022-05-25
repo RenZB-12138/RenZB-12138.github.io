@@ -59,11 +59,11 @@ body {
   margin-right: .75rem;
   margin-left: .75rem;
 }
-.show{
+.showed{
   border-radius: 16px;
   padding: 12px;
 }
-.show:hover{
+.showed:hover{
   transition: .25s;
   box-shadow: 0px 0px 20px 20px rgb(0 0 0 / 50%);
 }
