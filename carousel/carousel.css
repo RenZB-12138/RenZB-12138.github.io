@@ -21,6 +21,8 @@ body {
 	padding: 2rem;
 	width: auto;
 	background-color: rgba(0,0,0,0.46);
+  backdrop-filter:blur(2.5px);
+  -webkit-backdrop-filter:blur(2.5px);
 	z-index: 10;
 	position: absolute;
 	left: 0;
@@ -31,8 +33,9 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
+  background-size:cover;
 }
-.carousel-item > img {
+.carousel-item > div.picture {
 	width: 100%;
 	height: auto;
 
@@ -42,7 +45,29 @@ body {
 /*	max-width: 100%;*/
 }
 
-
+/*
+.picture{
+  display: flex;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+*/
+#pic1{
+  background-repeat: no-repeat;
+  align-items: center;
+  background-image: url(../img/pic1.jpg);
+}
+#pic2{
+  background-repeat: no-repeat;
+  
+  background-image: url(../img/pic2.jpg);
+}
+#pic3{
+  background-repeat: no-repeat;
+  
+  background-image: url(../img/pic3.jpg);
+}
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -65,8 +90,9 @@ body {
 }
 .showed:hover{
   transition: .25s;
-  box-shadow: 0px 0px 20px 20px rgb(0 0 0 / 50%);
+  box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 50%);
 }
+
 /* rtl:end:ignore */
 
 
