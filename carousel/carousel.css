@@ -18,16 +18,16 @@ body {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-	padding: 2rem;
-	width: auto;
-	background-color: rgba(0,0,0,0.46);
-  backdrop-filter:blur(2.5px);
-  -webkit-backdrop-filter:blur(2.5px);
-	z-index: 10;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	right: 0;
+  padding: 2rem;
+  width: auto;
+  background-color: rgba(0,0,0,0.46);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 /* Declare heights because of positioning of img element */
